@@ -1,4 +1,4 @@
-﻿import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { MessageCircle, X, Send, Sparkles } from "lucide-react";
 
 type ChatMessage = {
@@ -42,7 +42,7 @@ const botReply = (input: string) => {
   }
 
   if (/(address|location|map|kahan)/.test(q)) {
-    return "Clinic location: Shar-e-Naw, Kabul, Afghanistan.";
+    return "Clinic location: Delhi, India.";
   }
 
   if (/(braces|aligner|orthodontic)/.test(q)) {

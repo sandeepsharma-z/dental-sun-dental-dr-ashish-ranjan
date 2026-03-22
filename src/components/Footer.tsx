@@ -1,4 +1,4 @@
-﻿import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 const footerLinks = {
   "Quick Links": ["Home", "About", "Treatments", "Doctors", "Contact"],
@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-start gap-2">
                 <MapPin size={16} className="shrink-0 mt-0.5 text-primary" />
-                <span>Shar-e-Naw, Kabul, Afghanistan</span>
+                <span>Delhi, India</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone size={16} className="shrink-0 text-primary" />

@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const AppointmentSection = () => {
@@ -44,7 +44,7 @@ const AppointmentSection = () => {
             <div className="grid sm:grid-cols-2 gap-4 pt-4">
               <div className="rounded-2xl border border-border/70 bg-background/70 p-4">
                 <p className="text-xs font-semibold uppercase tracking-wider text-primary">Clinic Location</p>
-                <p className="mt-1 text-sm font-medium text-foreground">Shar-e-Naw, Kabul</p>
+                <p className="mt-1 text-sm font-medium text-foreground">Delhi, India</p>
                 <p className="text-xs text-muted-foreground">Sun Dental - Dr. Ashish Ranjan</p>
               </div>
               <div className="rounded-2xl border border-border/70 bg-background/70 p-4">

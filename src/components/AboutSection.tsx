@@ -1,4 +1,4 @@
-﻿import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 import clinicInterior from "@/assets/sun-about-main.jpeg";
 import clinicReception from "@/assets/sun-about-secondary.jpeg";
 
@@ -35,10 +35,10 @@ const AboutSection = () => {
           <div className={`space-y-6 ${isVisible ? "animate-reveal-right" : "opacity-0"}`}>
             <span className="text-primary text-sm font-semibold tracking-widest uppercase">About Our Clinic</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground leading-tight text-balance">
-              Serving Kabul Smiles Since 2013
+              Serving Delhi Smiles Since 2013
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed text-pretty">
-              At Sun Dental - Dr. Ashish Ranjan in Kabul, we combine clinical excellence with genuine compassion. Our state-of-the-art facility is designed for your comfort, featuring the latest diagnostic and treatment technology alongside a warm, welcoming atmosphere.
+              At Sun Dental - Dr. Ashish Ranjan in Delhi, we combine clinical excellence with genuine compassion. Our state-of-the-art facility is designed for your comfort, featuring the latest diagnostic and treatment technology alongside a warm, welcoming atmosphere.
             </p>
             <p className="text-muted-foreground leading-relaxed text-pretty">
               Every patient receives a personalized treatment plan crafted by our experienced team. We maintain the highest hygiene standards and use only premium materials to ensure lasting results.

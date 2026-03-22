@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Shield, Cpu, Users } from "lucide-react";
 import heroDentist from "@/assets/sun-hero.jpeg";
 
@@ -73,7 +73,7 @@ const HeroSection = () => {
           {/* Image */}
           <div className={`relative transition-all duration-700 delay-200 lg:-translate-y-6 ${loaded ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"}`}>
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl shadow-primary/10">
-              <img src={heroDentist} alt="Expert dentist at Sun Dental - Dr. Ashish Ranjan in Kabul" className="w-full h-auto object-cover aspect-square" loading="eager" />
+              <img src={heroDentist} alt="Expert dentist at Sun Dental - Dr. Ashish Ranjan in Delhi" className="w-full h-auto object-cover aspect-square" loading="eager" />
             </div>
             <div className="absolute -bottom-6 -left-6 w-32 h-32 rounded-2xl dental-gradient opacity-20 animate-float" />
             <div className="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-dental-aqua/20 animate-float-slow" />

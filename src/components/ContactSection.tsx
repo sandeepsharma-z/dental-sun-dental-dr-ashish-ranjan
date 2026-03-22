@@ -1,4 +1,4 @@
-﻿import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const ContactSection = () => {
@@ -18,7 +18,7 @@ const ContactSection = () => {
           {/* Info */}
           <div className="space-y-6">
             {[
-              { icon: MapPin, label: "Address", value: "Shar-e-Naw, Kabul, Afghanistan" },
+              { icon: MapPin, label: "Address", value: "Delhi, India" },
               { icon: Phone, label: "Phone", value: "098118 28767" },
               { icon: Mail, label: "Email", value: "contact@sundentaldrashish.com" },
               { icon: Clock, label: "Hours", value: "Sat-Thu: 9:00 AM - 7:00 PM | Fri: Closed" },
@@ -35,7 +35,7 @@ const ContactSection = () => {
             ))}
 
             <a
-              href="https://maps.google.com/?q=Shar-e-Naw,+Kabul,+Afghanistan"
+              href="https://maps.google.com/?q=Delhi,+India"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 dental-gradient rounded-full px-6 py-3 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] active:scale-[0.97] mt-4"
@@ -49,7 +49,7 @@ const ContactSection = () => {
           <div className="rounded-2xl overflow-hidden shadow-xl bg-muted h-72 lg:h-auto min-h-[320px]">
             <iframe
               title="Sun Dental - Dr. Ashish Ranjan Location"
-              src="https://www.google.com/maps?q=Shar-e-Naw,+Kabul,+Afghanistan&output=embed"
+              src="https://www.google.com/maps?q=Delhi,+India&output=embed"
               className="w-full h-full min-h-[320px] border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
