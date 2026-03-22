@@ -42,7 +42,7 @@ const botReply = (input: string) => {
   }
 
   if (/(address|location|map|kahan)/.test(q)) {
-    return "Clinic location: Delhi, India.";
+    return "Clinic location: Delhi, India. Nearby landmark details ke liye call karein.";
   }
 
   if (/(braces|aligner|orthodontic)/.test(q)) {
